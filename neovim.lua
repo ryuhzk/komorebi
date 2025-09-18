@@ -5,7 +5,11 @@ return {
 		priority = 1000,
 		config = function()
 			require("catppuccin").setup({
-				flavour = "latte", -- other options: "mocha", "frappe", "macchiato"
+				flavour = "latte",
+				float = {
+					transparent = false,
+					solid = false,
+				},
 			})
 			vim.cmd.colorscheme("catppuccin-latte")
 		end,
