@@ -10,6 +10,7 @@ return {
 					transparent = false,
 					solid = false,
 				},
+				transparent_background = false,
 			})
 			vim.cmd.colorscheme("catppuccin-latte")
 		end,
