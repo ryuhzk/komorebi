@@ -14,10 +14,6 @@ return {
 			})
 			vim.cmd.colorscheme("catppuccin-latte")
 		end,
-		opts = function()
-			local bufferline = require("catppuccin.groups.integrations.bufferline")
-			bufferline.get = bufferline.get or bufferline.get_theme
-		end,
 	},
 	{
 		"LazyVim/LazyVim",
